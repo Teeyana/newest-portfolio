@@ -10,19 +10,19 @@ const AllCards = () => {
         title='TiideHR'
         description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
         techstack={['Css', 'React', 'Javascript']}
-        link='will check'/>
+        link='https://github.com/Tiidelab-Fellowship/tiide-hr-react-fe.git'/>
 
         <Card        
-        title='TiideHR'
+        title='Resort App'
         description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
         techstack={['Tailwind CSS', 'React', 'Javascript']}
-        link='will check'/>
+        link='https://github.com/Teeyana/Resort.git'/>
 
         <Card        
-        title='TiideHR'
+        title='Data-finance App'
         description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
         techstack={['Tailwind CSS', 'React', 'Javascript']}
-        link='will check'/>
+        link='https://github.com/Teeyana/Data-finance-landing-page.git'/>
         
     </div>
     </div>
