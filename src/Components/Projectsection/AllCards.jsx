@@ -8,21 +8,24 @@ const AllCards = () => {
       <div className='flex justify-between items-center py-4 gap-x-10 mt-5 mx-auto w-[80%] flex-wrap'>
         <Card        
         title='TiideHR'
-        description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
+        imgSrc="/assets/tiidehr.png"
         techstack={['Css', 'React', 'Javascript']}
         link='https://github.com/Tiidelab-Fellowship/tiide-hr-react-fe.git'/>
 
         <Card        
         title='Resort App'
-        description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
+        imgSrc="/assets/resort.png"
         techstack={['Tailwind CSS', 'React', 'Javascript']}
-        link='https://github.com/Teeyana/Resort.git'/>
+        link='https://github.com/Teeyana/Resort.git'
+        livelink='https://resort-khaki.vercel.app/'
+        />
 
         <Card        
         title='Data-finance App'
-        description='TiideHR is an employee management system that allows small and medium scale enterprises manage tasks and automate HR processes.'
+        imgSrc="/assets/datafin.png"
         techstack={['Tailwind CSS', 'React', 'Javascript']}
-        link='https://github.com/Teeyana/Data-finance-landing-page.git'/>
+        link='https://github.com/Teeyana/Data-finance-landing-page.git'
+        livelink='https://data-finance-landing-page-gq6o.vercel.app/'/>
         
     </div>
     </div>

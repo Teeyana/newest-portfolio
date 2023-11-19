@@ -8,9 +8,18 @@ const MainSection = () => {
         <h3 className='text-[#CDCDFF] uppercase md:text-4xl text-2xl font-extrabold '> A Frontend Developer.</h3>
         <p className='text-[#CDCDFF] md:text-xl text-lg font-medium lg:w-[55%] w-[100%] text-justify'>  Christiana is a Front end software developer passionate about solving problems and bringing ideas to life. She is a team player and an active participant in teamwork. Strong ability to prioritize task, excellent communication and interpersonal skills.</p>
         <div className='flex items-center justify-evenly lg:w-[17%] w-[100%]'>
-            <button className='text-[#90A0D9] border-4 px-5 py-3 border-[#90A0D9] text-xl font-medium hover:bg-[#90A0D9] hover:text-[#23283E]'> Resume</button>
+            <button className='text-[#90A0D9] border-4 px-5 py-3 border-[#90A0D9] text-xl font-medium hover:bg-[#90A0D9] hover:text-[#23283E]'> Resume</button> 
+
+
+          <a href='https://github.com/Teeyana' target='_blank' className='flex items-center justify-center'>
             <IconGithub className='text-3xl text-[#CDCDFF] hover:opacity-75'/>
+          </a>
+        
+          <a href='https://www.linkedin.com/in/nwigwe-christiana-86415a240/
+' target='_blank' className='flex items-center justify-center'>
             <IconLinkedin className='text-3xl text-[#CDCDFF] hover:opacity-75'/>
+          </a>
+        
         </div>
 
 
@@ -19,3 +28,8 @@ const MainSection = () => {
 }
 
 export default MainSection
+
+
+
+// https://www.linkedin.com/in/nwigwe-christiana-86415a240/
+// https://github.com/Teeyana
